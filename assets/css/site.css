@@ -11,7 +11,7 @@ html {
 
 body {
 	margin: 0;
-	padding: 0;
+	padding: .5rem;
 	font-family: "Work Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 	font-size: 18px;
 	line-height: 1.82rem;
@@ -49,11 +49,15 @@ pre {
 	text-align: center;
 }
 
-.menu {
+.logo {
+	margin: 2rem 0;
+}
+
+/* .menu {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: stretch;
-}
+} */
 
 .menu-link {
 	display: inline-block;
@@ -62,11 +66,45 @@ pre {
 }
 
 @media (min-width: 768px) {
-	.menu-link {
-		flex: 1 1 24%;
+	.menu {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.posts {
+		max-width: 800px;
+		margin: 0 auto;
+	}
+
+	.post {
+		max-width: 800px;
+		margin: .5rem auto;
+	}
+
+	.footer {
+		max-width: 800px;
+		margin: .5rem auto;
 	}
 }
 
+.menu a {
+	display: inline;
+	margin-right: 1rem;
+}
+
+.post p {
+	text-align: justify;
+}
+
+.post p,
+.post pre {
+	margin-bottom: 1rem;
+}
+
+.footer-link {
+	display: inline-block;
+	margin-right: .5rem;
+}
 
 /*
 
