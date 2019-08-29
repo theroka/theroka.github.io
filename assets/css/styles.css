@@ -180,3 +180,25 @@ a, a:active, a:visited {
 .post-footer {
     color: #bbbbbb
 }
+
+.about-stacks {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+}
+
+.about-stacks-link {
+    display: flex;
+    align-items: center;
+    margin: .5rem 0;
+}
+
+.about-stacks div {
+    display: inline-block;
+    margin: 0 .5rem;
+}
+
+.about-stacks-link img {
+    width: 32px;
+    height: 32px;
+}
