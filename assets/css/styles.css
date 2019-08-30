@@ -201,4 +201,5 @@ a, a:active, a:visited {
 .about-stacks-link img {
     width: 32px;
     height: 32px;
+    border-radius: 32px;
 }
